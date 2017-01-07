@@ -10,7 +10,7 @@ If there is any break due to internet connection. you have to manually check til
 
 
 
-Technical detail:
+##Technical detail:
 
 wget.exe is gnu free utility to download any thing from web. It can take urls from a text file also and download.
 
