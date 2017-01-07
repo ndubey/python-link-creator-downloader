@@ -1,5 +1,8 @@
 
-Just run (double click on) thw batch file download_all_from_text_file.bat
+My brother needed a utility download all the news papers [The Hindu](https://thehindu.com). There was a site hosting all the archived news papers day wise but you can only download single day paper at a time. This simple utility will first generate all the links in proper order for the papers and then with wget you can download the links in the text file.
+
+
+Just run (double click on) the batch file [download_all_from_text_file.bat](download_all_from_text_file.bat)
 
 it should in general work
 
@@ -17,8 +20,8 @@ wget.exe --no-check-certificate -i url_list.txt
 
 --no-check-certificate option because wget is not able to get the proper certificate for https.
 
-url_list.txt file has all the urls you need to download
+[url_list.txt](url_list.txt) file has all the urls you need to download
 
 
-printAllLinks.py generate the txt file in proper format.
+[printAllLinks.py](printAllLinks.py) generate the txt file in proper format.
 
